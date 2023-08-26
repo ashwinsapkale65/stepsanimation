@@ -30,7 +30,7 @@ section {
 .slide-title {
   font-size: 4rem;
   line-height: 1;
-  max-width: 50%;
+  max-width: 100%; /* Adjust to your preference */
   white-space: normal;
   word-break: break-word;
   color: #FFF;
@@ -39,12 +39,14 @@ section {
   text-transform: uppercase;
   font-weight: normal;
 }
+
 @media (min-width: 45em) {
   .slide-title {
-    font-size: 7vw;
+    font-size: 3vw; /* Change to a smaller value if needed */
     max-width: none;
   }
 }
+
 .slide-title span {
   white-space: pre;
   display: inline-block;
