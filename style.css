@@ -4,12 +4,15 @@
 *,
 *::before,
 *::after {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  margin-top: -30px;
+  
   --color: rgba(30, 30, 30);
   --bgColor: rgb(215, 215, 215);
   min-height: 100vh;
@@ -21,7 +24,7 @@ body {
 
   font-family: "Oxygen", sans-serif;
   color: var(--color);
-  background-color: white;
+  background: #E3F2FD;
 }
 
 h1 {
